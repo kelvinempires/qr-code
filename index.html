@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .outfit-normal {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+      }
+      .outfit-bold {
+        font-family: "Outfit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#d5e1ef] flex flex-col justify-center h-screen items-center">
+    <main class="rounded-lg flex flex-col bg-white w-[17rem] p-3 ">
+      <div>
+        <img
+          class="rounded-lg h-[14rem] w-[18rem]"
+          src="./images/image-qr-code.png"
+          alt=""
+        />
+      </div>
+      <div class="flex flex-col py-5 gap-3">
+        <h1 class="font-semibold text-center text-lg px-2 outfit-bold">
+          Improve your front-end skills by building projects
+        </h1>
+
+        <p class="text-center text-[15px] outfit-normal text-slate-500 ">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </p>
+      </div>
+    </main>
+    <footer class="attribution mt-10">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Kelvin_empire</a>.
+    </footer>
+  </body>
+</html>
